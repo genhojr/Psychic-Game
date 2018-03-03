@@ -3,7 +3,7 @@
     var losses = 0;
     var guessesLeft = 9;
     var guessesSoFar = []; 
-    var computerChoices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']; //list of letters to choose from
+    var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']; 
     
     document.onkeyup = function(event) {
         var userGuess = String.fromCharCode(event.keyCode).toLowerCase(); 
