@@ -11,13 +11,13 @@
         guessesSoFar.push(userGuess); 
         if (userGuess == computerGuess) {
             wins++;
-            alert('Way to go! You\'ve guesesed corrrectly. You Won!');
+            alert('Excellent! You guessesed it correctly. You Won!');
             guessesLeft = 9; 
             guessesSoFar.length = 0; 
         }
         else if (guessesLeft == 0){
             losses++;
-            alert('You didn\'t guess the correct letter. You lost. Let\'s try again.');
+            alert('You did not guess the correct letter. You lost. Try again.');
             guessesLeft = 9;
             guessesSoFar.length = 0;
         }
@@ -26,7 +26,7 @@
         }  
             
         var html = "<h1>The Psychic Game</h1>" + 
-        "<p>Guess what letter I'm thinking of!</p>" +
+        "<h2>Try to guess what letter I'm thinking of! I dare you!!</h2>" +
         "<p>Total Wins: " + 
         wins + 
         "</p>" +
